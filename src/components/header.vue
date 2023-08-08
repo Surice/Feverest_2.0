@@ -6,13 +6,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <router-link class="nav-link" to="/">Home</router-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Free Games</a>
+                            <router-link class="nav-link" to="/project/free_Games">Free Games</router-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Fuel Calculator</a>
+                            <router-link class="nav-link" to="/project/fuel_calculator">Fuel Calculator</router-link>
                         </li>
                     </ul>
                 </div>
