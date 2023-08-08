@@ -1,3 +1,7 @@
 <template>
-    <h1>Feverest</h1>
+    <main>
+        <nav class="navbar ">
+
+        </nav>
+    </main>
 </template>
