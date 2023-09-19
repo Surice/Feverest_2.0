@@ -9,7 +9,7 @@
             <h3>Verantwortlicher</h3>
             <p>
                 Sebastian Ulrich<br/>
-                Beethovenstraße, 99<br/>
+                Lübecker Straße, 32<br/>
                 22941 Bargteheide<br/>
                 Tel: +49 157 80392596<br/>
                 E-Mail: <a href="mailto:info@feverest.de">info@feverest.de</a>
