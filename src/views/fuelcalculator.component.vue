@@ -1,8 +1,8 @@
 <template>
-    <main>
+    <main style="background-color: rgb(214, 214, 214);">
         <div class="container">
             <div class="d-flex justify-content-evenly">
-                <div class="py-5 my-5 px-5 bg-secondary">
+                <div class="py-5 my-5 px-5 bg-light rounded shadow-lg">
                     <div class="d-flex justify-content-between">
                         <h1>PreSet</h1>
                         <div class="dropdown">
@@ -38,19 +38,19 @@
                     </div>
                 </div>
                 <div>
-                    <div class="px-5 py-2 m-5 d-flex bg-secondary" style="width: 100%;">
+                    <div class="px-5 py-2 m-5 d-flex bg-light rounded shadow-lg" style="width: 100%;">
                         <div class="pt-2" style="width: 100%;">
                             <h4 class="m-0">Fuel Consumption</h4>
-                            <div class="d-flex flex-row-reverse align-content-end">
-                                <p>Liters</p>
-                                <p class="result-number">12</p>
+                            <div class="d-flex justify-content-end align-items-end">
+                                <span class="result-number">12</span>
+                                <span class="result-unit">Liters</span>
                             </div>
                         </div>
                     </div>
-                    <div class="px-5 py-2 m-5 d-flex bg-secondary" style="width: 100%;">
+                    <div class="px-5 py-2 m-5 d-flex bg-light rounded shadow-lg" style="width: 100%;">
                         <div class="pt-2" style="width: 100%;">
                             <h4 class="m-0">Save Consumption</h4>
-                            <div class="d-flex flex-row-reverse align-content-end">
+                            <div class="d-flex flex-row-reverse align-items-end">
                                 <p>Liters</p>
                                 <p class="result-number">16</p>
                             </div>
@@ -65,5 +65,8 @@
     .result-number{
         font-size: 72px;
         font-weight: 600;
+    }
+    .result-unit{
+        font-size: 16px;
     }
 </style>
