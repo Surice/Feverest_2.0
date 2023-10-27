@@ -47,8 +47,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="p-5 m-5 bg-secondary" style="width: 100%;">
-                        <h4>Save Consumption</h4>
+                    <div class="px-5 py-2 m-5 d-flex bg-secondary" style="width: 100%;">
+                        <div class="pt-2" style="width: 100%;">
+                            <h4 class="m-0">Save Consumption</h4>
+                            <div class="d-flex flex-row-reverse align-content-end">
+                                <p>Liters</p>
+                                <p class="result-number">16</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>  
