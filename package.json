@@ -10,7 +10,9 @@
   "dependencies": {
     "@material/web": "^1.0.0-pre.14",
     "bootstrap": "^5.3.1",
+    "typed.js": "^2.1.0",
     "vue": "^3.3.4",
+    "vue-particles": "^1.0.9",
     "vue-router": "^4.2.4"
   },
   "devDependencies": {

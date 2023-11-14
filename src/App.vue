@@ -4,9 +4,9 @@
 </script>
 
 <template>
-  <main>
+  <main class="d-flex flex-column" style="height: 100vh;">
     <navbar></navbar>
-    <router-view></router-view>
+    <router-view class="flex-grow-1"></router-view>
     <foobar></foobar>
   </main>
 </template>

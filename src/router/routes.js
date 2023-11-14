@@ -4,6 +4,7 @@ import Home from '@/views/home.component.vue'
 import Impressum from '@/views/impressum.component.vue'
 import FreeGames from '@/views/freeGames.component.vue'
 import FuelCalculator from '@/views/fuelcalculator.component.vue'
+import Testpage from '@/views/test.component.vue'
 
 const routes = [
     {
@@ -40,6 +41,11 @@ const routes = [
         title: "ACC Fuel Calculator E-Sports",
         description: "With the “Fuel Calculator” you can calculate the perfect balenced required amount of fuel needed in the race of your Sim-Racing game: Assetto Corsa Competitzione, Project Cars, iRacing, and so on."
       }
+    },
+    {
+      path: '/dev',
+      name: 'Dev-page',
+      component: Testpage
     }
 ];
 
