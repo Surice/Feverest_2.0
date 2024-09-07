@@ -62,22 +62,13 @@
                     </div>
                 </div>
             </div>
-            <div class="div-width">
-                <div class="px-5 py-2 d-flex bg-light rounded shadow-lg" style="width: 100%;">
+            <div class="div-width result-div">
+                <div class=" div-width px-5 py-2 d-flex bg-light rounded shadow-lg" style="width: 100%;">
                     <div class="pt-2" style="width: 100%;">
                         <h4 class="m-0">Fuel Consumption</h4>
-                        <div class="d-flex justify-content-end align-items-end">
+                        <div> 
                             <span class="result-number">12</span>
-                            <span class="result-unit">Liters</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="px-5 py-2 d-flex bg-light rounded shadow-lg" style="width: 100%;">
-                    <div class="pt-2" style="width: 100%;">
-                        <h4 class="m-0">Save Consumption</h4>
-                        <div class="d-flex flex-row-reverse align-items-end">
-                            <p>Liters</p>
-                            <p class="result-number">16</p>
+                            <span class="result-unit"> Liters</span>
                         </div>
                     </div>
                 </div>
@@ -99,11 +90,14 @@
     .clr-border-input{
         border-color: rgb(80, 80, 80) !important;
     }
+    .result-div{
+        margin-bottom: 12vh;
+    }
     .result-number{
         font-size: 72px;
         font-weight: 600;
     }
     .result-unit{
-        font-size: 16px;
+        font-size: 18px;
     }
 </style>
